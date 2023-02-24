@@ -107,6 +107,11 @@ Library: lib_burst_generated
 --compilation-defines=NET_STANDARD_2_1
 --compilation-defines=NETSTANDARD
 --compilation-defines=NETSTANDARD2_1
+--compilation-defines=DEVELOPMENT_BUILD
+--compilation-defines=ENABLE_PROFILER
+--compilation-defines=DEBUG
+--compilation-defines=TRACE
+--compilation-defines=UNITY_ASSERTIONS
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -130,6 +135,7 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_VR_MODULE
 --compilation-defines=ENABLE_XR_MODULE
 --compilation-defines=ENABLE_INPUT_SYSTEM_PACKAGE
+--compilation-defines=DISABLE_BUILTIN_INPUT_SYSTEM_OCULUS
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_VR
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_XR
 --compilation-defines=UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
@@ -145,6 +151,8 @@ Library: lib_burst_generated
 --compilation-defines=MODULE_PHYSICS_EXISTS
 --compilation-defines=MODULE_PHYSICS_2D_EXISTS
 --compilation-defines=MODULE_PARTICLE_SYSTEM_EXISTS
+--compilation-defines=UNITY_INPUT_SYSTEM
+--compilation-defines=XR_MGMT_GTE_320
 --compilation-defines=INCLUDE_PHYSICS_MODULE
 --compilation-defines=INCLUDE_UGUI
 --compilation-defines=INCLUDE_INPUT_SYSTEM
@@ -152,6 +160,7 @@ Library: lib_burst_generated
 --compilation-defines=UNITY_ANALYTICS
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --generate-link-xml=Temp\burst.link.xml
+--debug=Full
 --output=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\tempburstlibs\arm64-v8a\lib_burst_generated
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.XR.Interaction.Toolkit.dll
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
@@ -162,6 +171,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.XR.Oculus.dll
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
 --root-assembly=C:\Users\Borja\Desktop\CreateVR\Temp\StagingArea\Data\Managed\Unity.Burst.dll
